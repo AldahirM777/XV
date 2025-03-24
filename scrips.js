@@ -80,3 +80,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   elements.forEach((el) => observer.observe(el));
 });
+
+//? Is Safari
+
+document.addEventListener("DOMContentLoaded", function () {
+  var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+  if (isSafari) {
+    var elements = document.querySelectorAll("*");
+
+    elements.forEach(function (element) {
+      var computedStyle = window.getComputedStyle(element);
+
+      if (computedStyle.backgroundAttachment === "fixed") {
+        element.style.backgroundAttachment = "local";
+      }
+    });
+  }
+});

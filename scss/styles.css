@@ -601,15 +601,13 @@ main #RSVP {
   background-image: url("../imgs/xcaret/img1.jpg");
   background-attachment: fixed;
   color: #000;
-  position: relative;
 }
 main #RSVP h1 {
-  position: absolute;
   font-family: "Great Vibes";
   font-size: 3rem;
   text-align: center;
-  margin-top: 30px;
-  width: 70%;
+  width: 90%;
+  margin-bottom: 20px;
   top: 0;
 }
 main #RSVP .container-text {
@@ -620,7 +618,6 @@ main #RSVP .container-text {
   text-align: center;
   gap: 20px;
   width: 90%;
-  margin-top: 60px;
   -webkit-backdrop-filter: blur(1px);
           backdrop-filter: blur(1px);
   border-radius: 50px;
@@ -785,17 +782,4 @@ main .animate-element {
 main .animate-element.show {
   opacity: 1;
   transform: translateY(0);
-}
-
-/*
-#Inicio,
-#divs2,
-#Countdown,
-#Info,
-#DressCode,
-#RSVP,
-//! #Gifts,
-#Gallery {
-  display: none;
-}
- *//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

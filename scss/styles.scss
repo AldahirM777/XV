@@ -113,7 +113,6 @@ html {
 main {
   background-image: url("../imgs/decoration/fondo4.jpg");
   @include background-config;
-
   background-attachment: fixed;
 
   #Inicio {
@@ -671,15 +670,13 @@ main {
     background-image: url("../imgs/xcaret/img1.jpg");
     background-attachment: fixed;
     color: #000;
-    position: relative;
 
     h1 {
-      position: absolute;
       font-family: $font-heading;
       font-size: 3rem;
       text-align: center;
-      margin-top: 30px;
-      width: 70%;
+      width: 90%;
+      margin-bottom: 20px;
       top: 0;
     }
 
@@ -688,7 +685,6 @@ main {
       text-align: center;
       gap: 20px;
       width: 90%;
-      margin-top: 60px;
       backdrop-filter: blur(1px);
       border-radius: 50px;
       margin-bottom: 50px;
@@ -868,16 +864,3 @@ main {
     transform: translateY(0);
   }
 }
-
-/*
-#Inicio,
-#divs2,
-#Countdown,
-#Info,
-#DressCode,
-#RSVP,
-//! #Gifts,
-#Gallery {
-  display: none;
-}
- */
