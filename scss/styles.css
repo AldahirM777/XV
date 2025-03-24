@@ -239,7 +239,7 @@ main #divs2 .message .text-container {
   flex-direction: column;
   border: 2px solid rgb(215, 185, 145);
   width: 100%;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
   position: relative;
 }
 main #divs2 .message .text-container figure {
@@ -288,7 +288,7 @@ main #divs2 .message .text-container .p-container .p1,
 main #divs2 .message .text-container .p-container .p2 {
   font-family: "Raleway";
   color: #333;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   z-index: 2;
 }

@@ -270,7 +270,7 @@ main {
         @include display-flex;
         border: 2px solid rgb(215, 185, 145);
         width: 100%;
-        padding: 2.5rem 0;
+        padding: 2rem 0;
         position: relative;
 
         figure {
@@ -322,7 +322,7 @@ main {
           .p2 {
             font-family: $font-body;
             color: #333;
-            font-size: 1rem;
+            font-size: 0.9rem;
             line-height: 1.5;
             z-index: 2;
           }
