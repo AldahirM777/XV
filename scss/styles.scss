@@ -107,6 +107,7 @@ html {
     @include background-config;
     overflow: hidden;
     width: 100%;
+    padding: 30px 0;
   }
 }
 
@@ -117,7 +118,7 @@ main {
 
   #Inicio {
     background-image: url("../imgs/xcaret/img2.jpg");
-    height: 60vh;
+    min-height: 60vh;
     position: relative;
     justify-content: space-between;
     padding: 20px;
@@ -176,6 +177,7 @@ main {
   #divs2 {
     gap: 10px;
     background: transparent;
+    padding: 0;
     margin: 5px 0;
 
     .player-container,
@@ -267,8 +269,8 @@ main {
       .text-container {
         @include display-flex;
         border: 2px solid rgb(215, 185, 145);
-        height: 27.5vh;
         width: 100%;
+        padding: 2.5rem 0;
         position: relative;
 
         figure {
@@ -318,8 +320,9 @@ main {
 
           .p1,
           .p2 {
-            font-family: $font-body; // Texto del cuerpo
+            font-family: $font-body;
             color: #333;
+            font-size: 1rem;
             line-height: 1.5;
             z-index: 2;
           }
@@ -334,10 +337,10 @@ main {
   }
 
   #Countdown {
-    background-image: url("../imgs/xcaret/img3.jpg");
+    background-image: url("../imgs/xcaret/img5.jpg");
     background-attachment: fixed;
-    height: 80vh;
-    color: #000;
+    color: #fff;
+    min-height: 80vh;
 
     h1,
     h2,
@@ -368,7 +371,7 @@ main {
       margin-top: 20px;
 
       .separador {
-        font-size: 3.5rem;
+        font-size: 3rem;
       }
 
       #hours,
@@ -383,7 +386,7 @@ main {
         font-family: $font-subtitle;
 
         .countdown-number {
-          font-size: 2rem;
+          font-size: 1.75rem;
           font-weight: bold;
         }
 
@@ -398,7 +401,7 @@ main {
   #Info {
     background-image: $bg-1;
     background-repeat: repeat;
-    padding: 20px 15px;
+    padding: 45px 15px;
     position: relative;
     border-bottom-right-radius: $borderPx;
     border-bottom-left-radius: $borderPx;
@@ -666,17 +669,17 @@ main {
   }
 
   #RSVP {
-    height: 80vh;
     background-image: url("../imgs/xcaret/img1.jpg");
     background-attachment: fixed;
     color: #000;
+    padding: 30px 0;
 
     h1 {
       font-family: $font-heading;
       font-size: 3rem;
       text-align: center;
       width: 90%;
-      margin: 3rem 0;
+      margin: 2rem 0;
       top: 0;
     }
 
