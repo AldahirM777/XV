@@ -36,7 +36,7 @@ audio.addEventListener("timeupdate", () => {
 
 //? CountDown Timer
 function updateCountdown() {
-  const targetDate = new Date("April 26, 2025 00:00:00").getTime();
+  const targetDate = new Date("April 26, 2025 19:00:00").getTime();
   const now = new Date().getTime();
   const difference = targetDate - now;
 
@@ -82,7 +82,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //? Is Safari
-
 document.addEventListener("DOMContentLoaded", function () {
   var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
